@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: "Comic Sans MS", serif;
+    display: inline;
+}
+h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f7f5f3;
+    height: 45px;
+    background: linear-gradient(#b1b1b5, #888794, #b1b1b5);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 45px;
+    text-indent: 10px;
+}
+h5 {
+    color: #996a3c;
+}
+a {
+    color: black;
+}
+#wrapper {
+    width: 970px;
+}
+#header {
+    background-color: rgb(240, 240, 240);
+    padding-left: 20;
+    padding-right: 20;
+}
+#header h3{
+    color: black;
+    background: none;
+}
+#content {
+    background: radial-gradient(#887c82, #644f59, #1c0c10);
+    padding: 20px;
+}
+#about_me div {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    width: 498px;
+    height: 285px;
+    background: linear-gradient(-90deg, #d8c9d6, #f8f7f8);
+}
+#about_me img {
+    border: 4px solid #888794;
+    width: 400px;
+    height: 277px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#content_bottom div {
+    display: inline-block;
+    background: linear-gradient(-90deg, #d8c9d6, #f8f7f8);
+    width: 294px;
+    margin-right: 20px;
+}
+#content_bottom div:nth-child(3) {
+    margin-right: 0px;
+}
+.project_description {
+    background: linear-gradient(#b1b1b5, #888794, #b1b1b5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project_description{
+    height: 390px;
+}
+.project_description img {
+    width: 294px;   
+}
+.project_description p {
+    padding: 10px;
+    font-size: 15px;
+}
+.project_technologies {
+    vertical-align: top;
+    display: inline-block;
+    height: 250px;
+}
+.project_technologies img {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+#buttons div {
+}
+#buttons h5{
+    margin-top: 15px;
+    /* margin-left: 96px; */
+    display: block;
+    color: #a37f5b;
+    background-color: teal;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+
+/* .box_content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+} */

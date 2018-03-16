@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: "Comic Sans MS", serif;
+    display: inline;
+}
+h3, h4, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f7f5f3;
+    height: 45px;
+    background: linear-gradient(#b1b1b5, #888794, #b1b1b5);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 45px;
+    text-indent: 10px;
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#wrapper {
+    width: 970px;
+    margin: auto;
+}
+#header {
+    width: 930px;
+    padding: 10px 20px;
+}
+#header h3 {
+    display: inline-block;
+    color: black;
+    background: none;
+    float: right;
+}
+#content {
+    background: radial-gradient(#887c82, #644f59, #1c0c10);
+    padding: 20px;
+}
+#about_me div {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    width: 480px;
+    height: 285px;
+    background: linear-gradient(-90deg, #d8c9d6, #f8f7f8);
+}
+#about_me img {
+    display: inline-block;
+    width: 418px;
+    height: 277px;
+    border: #888794 4px solid;
+    margin-bottom: 20px;
+}
+#footer div {
+    display: block;
+    text-align: center;
+    height: 24px;
+    padding: 0;
+}
+#footer a {
+    line-height: 40px;
+    font-style: italic;
+}
+#footer img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.content_bottom div {
+    display: inline-block;
+    vertical-align: top;
+    background: linear-gradient(-90deg, #d8c9d6, #f8f7f8);
+    width: 294px;
+    margin-right: 20px;
+}
+.content_bottom div:nth-child(3), div:nth-child(6) {
+    margin-right: 0px;
+}
+.project_description {
+    height: 400px;
+}
+.project_description img {
+    width: 294px;
+}
+.project_description p {
+    font-size: 15px;
+}
+.project_technologies {
+    height: 220px;;
+}
+.project_technologies img {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+.project_technologies div {
+    text-align: center;
+}
+.project_technologies div h5{
+    display: inline;
+    background: teal;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
